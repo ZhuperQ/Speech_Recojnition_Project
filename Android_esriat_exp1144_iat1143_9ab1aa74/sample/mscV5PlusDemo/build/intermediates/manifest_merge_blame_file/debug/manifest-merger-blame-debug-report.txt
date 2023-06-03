@@ -1,0 +1,116 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.iflytek.mscv5plusdemo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:7:5-67
+11-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:7:22-64
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:8:5-71
+12-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:8:22-68
+13    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+13-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:9:5-75
+13-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:9:22-72
+14
+15    <application
+15-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:11:5-54:19
+16        android:name="com.iflytek.mscv5plusdemo.SpeechApp"
+16-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:13:9-33
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.5.0] C:\Users\QiChenghao\.gradle\caches\transforms-3\5c5e8dce9a0ed12f290ac39851d18ca8\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@drawable/icon"
+19-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:12:9-38
+20        android:label="讯飞语音示例v5+"
+20-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:15:9-34
+21        android:testOnly="true"
+22        android:theme="@style/Theme.Iflytek" >
+22-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:14:9-45
+23        <activity
+23-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:16:9-27:20
+24            android:name="com.iflytek.mscv5plusdemo.MainActivity"
+24-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:17:13-66
+25            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+25-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:18:13-133
+26            android:icon="@drawable/icon"
+26-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:19:13-42
+27            android:label="讯飞语音示例v5+"
+27-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:20:13-38
+28            android:screenOrientation="portrait" >
+28-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:21:13-49
+29            <intent-filter>
+29-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:22:13-26:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:23:17-69
+30-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:23:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:25:17-77
+32-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:25:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity android:name="com.iflytek.speech.setting.TtsSettings" />
+35-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:28:9-74
+35-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:28:19-72
+36        <activity android:name="com.iflytek.speech.setting.IatSettings" />
+36-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:29:9-74
+36-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:29:19-72
+37        <activity
+37-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:30:9-33:51
+38            android:name="com.iflytek.mscv5plusdemo.IatDemo"
+38-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:31:13-61
+39            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+39-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:32:13-133
+40            android:screenOrientation="portrait" />
+40-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:33:13-49
+41        <activity
+41-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:34:9-37:51
+42            android:name="com.iflytek.mscv5plusdemo.AsrDemo"
+42-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:35:13-61
+43            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+43-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:36:13-133
+44            android:screenOrientation="portrait" />
+44-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:37:13-49
+45        <activity
+45-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:38:9-41:51
+46            android:name="com.iflytek.mscv5plusdemo.TtsDemo"
+46-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:39:13-61
+47            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+47-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:40:13-133
+48            android:screenOrientation="portrait" />
+48-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:41:13-49
+49        <activity
+49-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:42:9-45:51
+50            android:name="com.iflytek.mscv5plusdemo.IvwActivity"
+50-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:43:13-65
+51            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+51-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:44:13-133
+52            android:screenOrientation="portrait" />
+52-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:45:13-49
+53        <activity
+53-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:46:9-49:51
+54            android:name="com.iflytek.mscv5plusdemo.WakeDemo"
+54-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:47:13-62
+55            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+55-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:48:13-133
+56            android:screenOrientation="portrait" />
+56-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:49:13-49
+57        <activity
+57-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:50:9-53:51
+58            android:name="com.iflytek.mscv5plusdemo.OneShotDemo"
+58-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:51:13-65
+59            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+59-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:52:13-133
+60            android:screenOrientation="portrait" />
+60-->E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\AndroidManifest.xml:53:13-49
+61    </application>
+62
+63</manifest>

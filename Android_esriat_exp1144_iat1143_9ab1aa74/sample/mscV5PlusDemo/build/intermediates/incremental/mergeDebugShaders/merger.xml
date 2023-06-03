@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\main\shaders"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\speech_recognition_project\Android_esriat_exp1144_iat1143_9ab1aa74\sample\mscV5PlusDemo\src\debug\shaders"/></dataSet></merger>
